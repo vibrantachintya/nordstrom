@@ -826,5 +826,11 @@
         counter = 1;
       }
     }, 3000);
+    
+    var images = document.querySelectorAll('img');
+    for(var i = 0; i<images.length;i++) {
+        var src = images[i].src;
+        images[i].src = src.replace("https://vibrantachintya.github.io/nordstrom/", "https://github.com/vibrantachintya/nordstrom/blob/main/");
+    }
 </script>
 </html>
