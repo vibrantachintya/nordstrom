@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordstrom Online &amp; In Store: Shoes, Jewelry, Clothing, Makeup, Dresses</title>
+    <link rel="icon" href="//n.nordstrommedia.com/id/169f9507-47b3-44bc-9ad4-9244fe191523.png" sizes="16x16" />
+    <link rel="icon" href="//n.nordstrommedia.com/id/69be546b-0c64-4cd0-8840-67a112d242d7.png" sizes="32x32" />
+    <link rel="icon" href="//n.nordstrommedia.com/id/c4fb2a09-3657-4161-9b79-6412897d9399.png" sizes="96x96" />
+    <style>
+
+        @font-face {
+            font-family: BrandonText;
+            src: url("fonts/BrandonText-Regular.otf") format("opentype");
+        }
+
+        @font-face {
+            font-family: BrandonText-Bold;
+            src: url("fonts/BrandonText-Bold.otf") format("opentype");
+        }
+
+        body {
+            font-family: BrandonText;
+            font-size: 15px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .margin-30 {
+            margin: 30px 0px;
+        }
+
+        h3 {
+            font-family: BrandonText-Bold;
+            margin: 0px;
+            font-size: 21px;
+        }
+
+        h2 {
+            font-family: BrandonText-Bold;
+            margin: 0px;
+            font-size: 28px;
+        }
+
+        p {
+            margin: 5px;
+        }
+
+        #container {
+            width: 97%;
+            max-width: 1375px;
+            margin: 0px auto;
+        }
+
+        #top_transition {
+            height: auto;
+        }
+
+        #top_transition > div {
+            height: 170px;
+            background-size: cover;
+        }
+
+        #top_transition_div_0 {
+            background-image: url('images/top_transition_1.png');
+            display: block;
+        }
+
+        #top_transition_div_0 > div {
+            width: 40%;
+            margin: 0px auto;
+            padding: 30px 0px;
+            text-align: center;
+            color: white;
+        }
+
+        #top_transition_div_0 > div > p {
+            margin: 5px 0px 10px 0px;
+        }
+
+        #top_transition_div_0 a {
+            color: white;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        #top_transition_div_0 a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        #top_transition_div_1 {
+            background-image: url('images/top_transition_2.png');
+            display: none;
+        }
+
+        #top_transition_div_1 > div {
+            width: 40%;
+            margin: 0px auto;
+            padding: 50px 0px;
+        }
+
+        #top_transition_div_1 > div > p {
+            margin: 5px 0px 10px 0px;
+        }
+
+        #top_transition_div_2 {
+            background-image: url('images/top_transition_3.png');
+            display: none;
+        }
+
+        #top_transition_div_2 > div {
+            width: 40%;
+            margin: 0px auto;
+            padding: 30px 0px;
+            text-align: center;
+            color: white;
+        }
+
+        #top_transition_div_2 > div > p {
+            margin: 5px 0px 10px 0px;
+        }
+
+        #top_transition_div_2 a {
+            color: white;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1px;
+            text-decoration: none;
+        }
+
+        #top_transition_div_2 a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        .designer-strip {
+            height: 10px;
+            background-image: url('images/landing_banner_1_before.png');
+            margin-top: 80px;
+        }
+
+        #banner_make_merry {
+            height: 272px;
+            margin-top: 40px;
+            background-image: url('images/landing_banner1.jpeg');
+            background-size: cover;
+        }
+
+        .banner_inner {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .banner_inner > div:first-child {
+            flex-grow: 1;
+        }
+
+        .banner_inner > p {
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .banner_inner > div:last-child {
+            margin: 0px 0px 40px;
+        }
+
+        .banner_inner > div:last-child ul {
+            list-style: none;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .banner_inner > div:last-child ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            border-bottom: 1px solid #000;
+            padding-bottom: 1px;
+        }
+
+        a:hover {
+            border-bottom: 2px solid #000;
+        }
+
+        ::selection {
+            color: white;
+            background: #333;
+            text-shadow: none;
+        }
+
+        #make_a_list_grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 190px 190px 193px 236px 136px 574px 163px;
+            column-gap: 10px;
+            row-gap: 5px;
+        }
+
+        #make_list_grid_two_gifts {
+            grid-area: 1/1/3/3;
+            background-image: url('images/make_a_list_grid_1.jpeg');
+        }
+
+        #make_list_grid_gif {
+            grid-area: 3/1/4/3;
+            background-image: url('images/make_a_list_grid_2.gif');
+            background-size: cover;
+        }
+
+        #make_list_grid_gif > div:last-child {
+            margin-bottom: 20px;
+        }
+
+        #make_list_grid_cozy {
+            grid-area: 4/1/5/3;
+            background-image: url('images/make_a_list_grid_3.jpeg');
+            background-size: cover;
+        }
+
+        #make_list_grid_cozy_link {
+            grid-area: 5/1/6/3;
+            background-image: url('images/make_a_list_grid_4.png');
+            background-size: cover;
+        }
+
+        #make_list_grid_transition {
+            grid-area: 1/3/5/4;
+            background-size: contain;
+        }
+        
+        #make_list_grid_transition_link {
+            grid-area: 5/3/6/4;
+            background-image: url('images/make_a_list_grid_5.png');
+            background-size: cover;
+        }
+
+        #make_list_grid_cozy_link > div, #make_list_grid_transition_link > div {
+            margin-top: 50px;
+        }
+
+        #make_list_transition_left {
+            grid-area: 6/1/7/2;
+            background-size: cover;
+        }
+
+        #make_list_transition_center {
+            grid-area: 6/2/7/3;
+            background-size: cover;
+            transition: 1s ease;
+        }
+
+        #make_list_transition_right {
+            grid-area: 6/3/7/4;
+            background-size: cover;
+        }
+
+        #make_list_transition_left_link {
+            grid-area: 7/1/8/2;
+            background-image: url('images/make_a_list_grid_6.png');
+            background-size: cover;
+        }
+
+        #make_list_transition_center_link {
+            grid-area: 7/2/8/3;
+            background-image: url('images/make_a_list_grid_7.png');
+            background-size: cover;
+        }
+
+        #make_list_transition_right_link {
+            grid-area: 7/3/8/4;
+            background-image: url('images/make_a_list_grid_8.png');
+            background-size: cover;
+        }
+
+        #make_list_transition_right_link > div, #make_list_transition_left_link > div, #make_list_transition_center_link > div {
+            margin-top: 50px;
+        }
+
+        .margin-30 > h2 {
+            color: #393939;
+            margin: 60px 0px;
+        }
+
+        #deals-container {
+            width: 95%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #deals-container > div {
+            width: 230px;
+            margin-top: 10px;
+        }
+
+        #deals-container > div > img {
+            width: 100%;
+        }
+
+        #deals-container > div > p:nth-child(2) {
+            font-size: 14px;
+            color: #393939;
+        }
+
+        #deals-container > div > p:last-child {
+            color: rgb(214, 31, 39);
+            font-family: BrandonText-Bold;
+            font-size: 13px;
+        }
+
+        #deals-container > div > p:last-child > span:nth-child(1) {
+            text-decoration: line-through;
+        }
+
+        #deals-container > div > p:last-child > span {
+            color: rgb(115, 115, 115);
+            font-family: BrandonText;
+        }
+
+        #banner-last-minute-gifts {
+            height: 515px;
+            background-image: url('images/banner_cover_1.jpeg');
+            background-size: contain;
+            color: white;
+        }
+
+        #banner-last-minute-gifts > div {
+            width: 40%;
+            margin: auto 7%;
+            padding: 200px 0px;
+        }
+
+        #banner-last-minute-gifts > div > p {
+            margin: 5px 0px 10px 0px;
+        }
+
+        #banner-last-minute-gifts a {
+            color: white;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1px;
+            text-decoration: none;
+        }
+
+        #banner-last-minute-gifts a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        #banner-clearance-sale {
+            height: 343px;
+            background-image: url('images/banner_cover_2.png');
+            background-size: cover;
+            margin-top: 40px;
+        }
+
+        #banner-clearance-sale > p {
+            text-align: center;
+            color: white;
+            padding-top: 210px;
+        }
+
+        #banner-clearance-sale a {
+            color: white;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1px;
+            text-decoration: none;
+        }
+
+        #banner-clearance-sale a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        #holiday-shops-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #holiday-shops-container > div {
+            width: 32%;
+        }
+
+        #holiday-shops-container > div > div {
+            padding-right: 30px;
+            margin-top: 10px;
+        }
+
+        #holiday-shops-container > div > img {
+            width: 100%;
+        }
+
+        #holiday-shops-container > div > div > p {
+            margin: 0px;
+        }
+
+        #holiday-shops-container > div > div > p:first-child {
+            font-family: BrandonText-Bold;
+        }
+
+        #holiday-shops-container > div > div:last-child ul {
+            list-style: none;
+            margin: 10px 0px 0px;
+            padding: 0px;
+        }
+
+        #holiday-shops-container > div > div:last-child ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        
+        #banner-dont-know {
+            background-image: url('images/banner_cover_3.jpeg');
+            background-size: cover;
+            height: 171px;
+            margin: 70px 0px;
+        }
+
+        #banner-dont-know > div {
+            width: 50%;
+            margin-left: 10%;
+            padding-top: 30px;
+        }
+
+        #banner-dont-know > div > p {
+            margin: 0px
+        }
+
+        #banner-dont-know > div:last-child ul {
+            list-style: none;
+            margin: 10px 0px 0px;
+            padding: 0px;
+        }
+
+        #banner-dont-know > div:last-child ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        #banner-holiday-party {
+            height: 515px;
+            background-image: url('images/banner_cover_4.jpeg');
+            background-size: cover;
+        }
+
+        #banner-holiday-party > div {
+            width: 20%;
+            margin: 0px auto;
+            color: white;
+            padding-top: 150px;
+        }
+
+        #banner-holiday-party > div > p {
+            margin: 0px
+        }
+
+        #banner-holiday-party > div:last-child ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #banner-holiday-party > div:last-child ul li {
+            display: inline-block;
+            margin-right: 15px;
+            margin-top: 5px;
+        }
+
+        #banner-holiday-party a {
+            color: white;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1px;
+            text-decoration: none;
+        }
+
+        #banner-holiday-party a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+
+
+
+        .slider{
+            height: 336px;
+            overflow: hidden;
+        }
+
+        .slides{
+            width: 500%;
+            height: 336px;
+            display: flex;
+        }
+
+        .slides input{
+            display: none;
+        }
+
+        .slide {
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+            transition: 1s ease;
+        }
+
+        .slide img{
+            width: 336px;
+            height: 336px;
+        }
+
+
+        #radio1:checked ~ .first{
+            margin-left: 0;
+        }
+
+        #radio2:checked ~ .first{
+            margin-left: -20%;
+        }
+
+        #radio3:checked ~ .first{
+            margin-left: -40%;
+        }
+
+        #radio4:checked ~ .first{
+            margin-left: -60%;
+        }
+      
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="top_transition">
+            <div id="top_transition_div_0">
+                <div>
+                    <h2>Get it in time for Christmas.</h2>
+                    <p>Order by December 16, 8pm ET, and choose free standard shipping.</p>
+                    <div>
+                        <a href="#">Gifts</a>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div id="top_transition_div_1">
+                <div>
+                    <h3>Get a $40 Bonus Note!</h3>
+                    <p>An exclusive offer for new Nordstrom credit cardmembers. Restrictions apply.</p>
+                    <div>
+                        <a href="#">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div id="top_transition_div_2">
+                <div>
+                    <h2>Pick Up Today</h2>
+                    <p>In store or curbside.</p>
+                    <div>
+                        <a href="#">Pickup & Delivery Options</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="designer-strip"></div>
+        <div class="banner_inner" id="banner_make_merry">
+            <div></div>
+            <p>We're celebrating with new inspiration every week for festive decor, the best gifts and more.</p>
+            <div>
+                <ul>
+                    <li><a href="#">Gift Guide</a></li>
+                    <li><a href="#">Gifts for Her</a></li>
+                    <li><a href="#">Gifts for Him</a></li>
+                    <li><a href="#">Gifts for Kid</a></li>
+                    <li><a href="#">Festive Experiences</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="make_a_list_grid">
+            <div id="make_list_grid_two_gifts"></div>
+            <div id="make_list_grid_gif" class="banner_inner">
+                    <div></div>
+                    <p>Cross off every name with these guaranteed-to-please gifts.</p>
+                    <div>
+                        <ul>
+                            <li><a href="#">Our Picks</a></li>
+                            <li><a href="#">All Gifts</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div id="make_list_grid_cozy"></div>
+            <div id="make_list_grid_cozy_link" class="banner_inner">
+                <div>
+                    <ul>
+                        <li><a href="#">Shop Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="make_list_grid_transition"><iframe width="460" height="815" src="https://www.youtube.com/embed/1Tc3JwmvB_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div id="make_list_grid_transition_link" class="banner_inner">
+                <div>
+                    <ul>
+                        <li><a href="#">Shop Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="make_list_transition_left"></div>
+            <div id="make_list_transition_center"></div>
+            <div id="make_list_transition_right"></div>
+            <div id="make_list_transition_left_link" class="banner_inner">
+                <div>
+                    <ul>
+                        <li><a href="#">Shop Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="make_list_transition_center_link" class="banner_inner">
+                <div>
+                    <ul>
+                        <li><a href="#">Shop Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="make_list_transition_right_link" class="banner_inner">
+                <div>
+                    <ul>
+                        <li><a href="#">Shop Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="margin-30">
+            <h2>Great deals on what you love</h2>
+            <div id="deals-container">
+                <div>
+                    <img src="images/deals_product_1.jpeg">
+                    <p>Zella</p>
+                    <p>INR 1,682.00 <span>INR 3930.29</span> <span>57% off</span></p>
+                </div>
+                <div>
+                    <img src="images/deals_product_2.jpeg">
+                    <p>Zella</p>
+                    <p>INR 1,682.00 <span>INR 3930.29</span> <span>57% off</span></p>
+                </div>
+                <div>
+                    <img src="images/deals_product_3.jpeg">
+                    <p>Zella</p>
+                    <p>INR 1,682.00 <span>INR 3930.29</span> <span>57% off</span></p>
+                </div>
+                <div>
+                    <img src="images/deals_product_4.jpeg">
+                    <p>Zella</p>
+                    <p>INR 1,682.00 <span>INR 3930.29</span> <span>57% off</span></p>
+                </div>
+                <div>
+                    <img src="images/deals_product_5.jpeg">
+                    <p>Zella</p>
+                    <p>INR 1,682.00 <span>INR 3930.29</span> <span>57% off</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-strip"></div>
+
+        <div class="center margin-30">
+            <h2>THE BEST GIFTS FOR EVERYONE ON YOUR LIST</h2>
+        </div>
+
+        <div id="banner-last-minute-gifts">
+            <div>
+                <h2>Last Minute Gifts</h2>
+                <p>Just what they wanted, just in time.</p>
+                <div>
+                    <a href="#">Gift Guide</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="banner-clearance-sale">
+            <p>From the best brands of the season. <a href="#">Designer Sale</a></p>
+        </div>
+
+        <div class="designer-strip"></div>
+
+        <div class="center margin-30">
+            <h2>HOLIDAY SHOPS</h2>
+        </div>
+
+        <div id="holiday-shops-container">
+            <div>
+                <img src="images/holiday_shops_1.jpeg" />
+                <div>
+                    <p>The Toy Shop Is Open</p>
+                    <p>Make holiday dreams come true with winning gifts and stocking stuffers for kids of all ages.</p>
+                    <ul>
+                        <li><a href="#">All Toys for Kids</a></li>
+                        <li><a href="#">Toys Under $50</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <img src="images/holiday_shops_2.jpeg" />
+                <div>
+                    <p>The Coolest Activewear Gifts</p>
+                    <p>Topping our list: cold-weather pieces with bold color blocking and fun prints.</p>
+                    <ul>
+                        <li><a href="#">Women's Activewear</a></li>
+                        <li><a href="#">Men's Activewear</a></li>
+                        <li><a href="#">Our Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <img src="images/holiday_shops_3.jpeg" />
+                <div>
+                    <p>The Gift of Great Home Design</p>
+                    <p>For the design-obsessed, the home chef and everyone in between.</p>
+                    <ul>
+                        <li><a href="#">Shop Home Gifts</a></li>
+                        <li><a href="#">Explore Home Gift Ideas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="banner-dont-know">
+            <div>
+                <h3>Don't Know What to Get? We Do!</h3>
+                <p>Get free gift advice from our experts in stores and online, or give the gift they pick with a Nordstrom Gift Card. Plus, get free gift wrapping and free signature gift boxes in stores.</p>
+                <ul>
+                    <li><a href="#">Women's Activewear</a></li>
+                    <li><a href="#">Men's Activewear</a></li>
+                    <li><a href="#">Our Guide</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="banner-holiday-party">
+            <div>
+                <h3>Holiday Party Ready</h3>
+                <p>Get ready to wow in sleek, celebration-worthy looks.</p>
+                <ul>
+                    <li><a href="#">Holiday Outfits</a></li>
+                    <li><a href="#">Explore Holiday Looks</a></li>
+                    <li><a href="#">Book a Free Styling Appointment</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <div class="center margin-30">
+        <h3>Currently Loving</h3>
+        <p>Explore favorite looks from Instagram. Tag @Nordstrom to show us your finds</p>
+    </div>
+    <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <div class="slide first">
+            <img src="images/bottom_caraousel_1.jpeg" alt="">
+            <img src="images/bottom_caraousel_2.jpeg" alt="">
+            <img src="images/bottom_caraousel_3.jpeg" alt="">
+            <img src="images/bottom_caraousel_4.jpeg" alt="">
+
+          </div>
+          <div class="slide">
+            <img src="images/bottom_caraousel_5.jpeg" alt="">
+            <img src="images/bottom_caraousel_6.jpeg" alt="">
+            <img src="images/bottom_caraousel_7.jpeg" alt="">
+            <img src="images/bottom_caraousel_8.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/bottom_caraousel_9.jpeg" alt="">
+            <img src="images/bottom_caraousel_10.jpeg" alt="">
+            <img src="images/bottom_caraousel_11.jpeg" alt="">
+            <img src="images/bottom_caraousel_12.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/bottom_caraousel_13.jpeg" alt="">
+            <img src="images/bottom_caraousel_14.jpeg" alt="">
+            <img src="images/bottom_caraousel_15.jpeg" alt="">
+            <img src="images/bottom_caraousel_16.jpeg" alt="">
+          </div>
+      </div>
+    </div>
+    
+</body>
+<script>
+    var c = 0;
+    function changeBGMakeListGrid(str) {
+        const images = ['url("images/make_a_list_grid_transition_' + str + '_1.jpeg")', 'url("images/make_a_list_grid_transition_'+ str + '_2.jpeg")', 'url("images/make_a_list_grid_transition_' + str + '_3.jpeg")', 'url("images/make_a_list_grid_transition_' + str + '_4.jpeg")', 'url("images/make_a_list_grid_transition_' + str + '_5.jpeg")'];
+        const div = document.querySelector('#make_list_transition_'+str);
+        console.log(div);
+        const bg = images[c % 5];
+        c++;
+        div.style.backgroundImage = bg;
+    }
+    changeBGMakeListGrid("left");
+    setInterval(function() {changeBGMakeListGrid("left")}, 1000);
+    changeBGMakeListGrid("right");
+    setInterval(function() {changeBGMakeListGrid("right")}, 1000);
+    changeBGMakeListGrid("center");
+    setInterval(function() {changeBGMakeListGrid("center")}, 1000);
+
+    var topTransition = 0;
+    function changeTopTransition() {
+        document.querySelector('#top_transition_div_'+(topTransition%3)).style.display = 'none';
+        topTransition++;
+        document.querySelector('#top_transition_div_'+(topTransition%3)).style.display = 'block';
+        
+    }
+    changeTopTransition();
+    setInterval(changeTopTransition, 2000);
+
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 3000);
+</script>
+</html>
