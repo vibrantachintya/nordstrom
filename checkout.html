@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="//n.nordstrommedia.com/id/169f9507-47b3-44bc-9ad4-9244fe191523.png" sizes="16x16" />
+    <link rel="icon" href="//n.nordstrommedia.com/id/69be546b-0c64-4cd0-8840-67a112d242d7.png" sizes="32x32" />
+    <link rel="icon" href="//n.nordstrommedia.com/id/c4fb2a09-3657-4161-9b79-6412897d9399.png" sizes="96x96" />
+    <script src="https://kit.fontawesome.com/0cbcac785e.js" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="Lbox">
+            <img src="https://1000logos.net/wp-content/uploads/2019/08/Nordstrom-Logo-1991.png">
+        </div>
+        <div class="Rbox" style="font-size: 40px;padding: 15px 30px;">
+            <i class="fas fa-shopping-cart" id="gotobag"></i>
+        </div>
+    </div>
+    <hr style="margin-bottom: 0px;width: 80%;">
+    <div class="container">
+        
+        <div class="leftbox">
+            <div class="topfixed">
+                
+                <h1 style="font-size: 23px;"><i class="fas fa-shield-alt"></i> Secure Checkout<span style="font-size: 15px; margin-left: 5px;font-weight: 400;">powered by Borderfree</span></h1>
+                <p style="font-size: 15px;">Already have a Borderfree account? Click<span style="color: blue;"> here</span>.<i class="fas fa-question-circle"></i>
+                </p>
+                <hr>
+                <button>1</button>
+                <span style="font-size:17px;">Delivery</span>
+            </div>
+            <div class="bottomvar">
+                <input id="Email" placeholder="Email" style="grid-area:Email ;">
+                <input id="Fname" placeholder="First Name" style="grid-area:Fname;">
+                <input id="Lname" placeholder="Last Name" style="grid-area:Lname ;">
+                <input id="Address" placeholder="Address" style="grid-area:Address ;">
+                <input id="Add2" placeholder="Address 2 (Optonal)" style="grid-area:Add2 ;">
+                <input id="PC" placeholder="Postal Code" style="grid-area:PC;">
+                <input id="City" placeholder="City" style="grid-area:City ;">
+                <input id="Region" placeholder="Region (Optonal)" style="grid-area:Region;">
+                <input id="Phone" placeholder="Phone" style="grid-area:Phone ;">
+                <input id="Location" placeholder="Location" style="grid-area:Location;">
+            </div>
+            <div class="continue">
+                <button>Continue</button>
+                <hr>
+            </div>
+            <div class="deliveryMain">
+                <div class="deliveryAdd" style="display: inline-block;width: 50%;">
+                    <h3 style="font-size: 14px;margin-bottom: 25px;">DELIVERY ADDRESS:</h3>
+                    <p id="del_name"></p>
+                    <p id="del_add"></p>
+                    <p id="del_city"></p>
+                    <p id="del_country"></p>
+                </div>
+                <div class="del_date" style="display: inline-block;">
+                    <h3 style="font-size: 14px;margin-bottom:25px ;">DELIVERY METHOD:</h3>
+                    <p>STANDARD</p>
+                    <p>NO ADDITIONAL IMPORT CHARGES AT</p>
+                    <p>DELIVERY</p>
+                    <p>11-21 BUSINESS DAYS</p>
+                </div>
+                <hr>
+            </div>
+            <div class="payment">
+                <button>2</button>
+                <span style="font-size:18px;">Payment</span>
+                <hr>
+            </div>
+            <div class="paymentHidden">
+                <input type="radio">
+                <span>Credit or Debit Card</span>
+                <img src="https://www.kindpng.com/picc/m/35-351793_credit-or-debit-card-mastercard-logo-visa-card.png" height="25px">
+                <div id="card">
+                    <input id="cardno" placeholder="Card Number">
+                    <input id="exy" placeholder="MM/YY">
+                    <input id="sec" placeholder="Security Code">
+                </div>
+                <hr style="border: .5px dashed;color: gray;">
+                <input type="checkbox" style="margin-top: 10px;">
+                <span style="font-size: 13px;"> Send me electronic or mail offers from Borderfree. You may opt out at any time.</span>
+                <div id="placeord">
+                    <button id="Porder">Place Order</button>
+                    <p style="font-size: 14px;">This order total is 100% guaranteed. There will be no additional charges due upon receipt.
+                    </p>
+                </div>
+                <hr>
+            </div>
+            <div id="condi">
+                <p>By placing your order, you agree to the Terms & Conditions and Privacy Policy of Borderfree from Pitney Bowes,<br> Nordstrom’s international fulfillment service. Borderfree is an online merchant that is located at Shelton, US, 06484, 27<br> Waterview Drive, CT.</p>
+            </div>
+            
+           
+
+        </div>
+        <div class="rightbox">
+            <div class="toporder">
+                <span style="font-size: 21px; font-weight: bolder;padding: 15px 0px;"><i class="fas fa-cart-arrow-down"></i> Your Order</span>
+                <button id="saytq">Continue</button>
+                <div id="usegrid">
+                    <div style="display: flex;justify-content: space-between;border:1px solid transparent;height: 40px;">
+                        <p>Items</p>
+                        <P id="itemtotal">5000</P>
+                    </div>
+                    <div style="display: flex;justify-content: space-between;border:1px solid transparent;height: 40px;">
+                        <p>Shipping <i class="fas fa-question-circle"></i></p>
+                        <p>Rs 0</p>
+
+                    </div>
+                    <div style="display: flex;justify-content: space-between;border:1px solid transparent;height: 40px;">
+                        <P>Duties & Taxes <i class="fas fa-question-circle"></i></P>
+                        <p>Rs 0</p>
+
+                    </div>
+                    <div style="display: flex;justify-content: space-between;">
+                        <p style="font-weight: bolder;font-size: large;">TOTAL</p>
+                        <P style="font-weight: bolder; font-size: large;" id="TOT">96000</P>
+
+                    </div>
+                </div>
+                <hr>
+                <input id="promoid" type="text" placeholder="Promo code" style="height: 25px;">
+                <button id="promo">apply promo</button>
+                
+                <hr>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="checkout.js"></script>
+</html>
+
+
