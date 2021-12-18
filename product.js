@@ -348,6 +348,8 @@
     },
 
 ]
+document.querySelector("#header").innerHTML = '<object type="text/html" data="header.html">';
+document.querySelector("#footer").innerHTML = '<object type="text/html" data="footer.html">';
 localStorage.setItem('product',JSON.stringify(array))
 var product = JSON.parse(localStorage.getItem('product'));
 x(product)
