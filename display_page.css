@@ -1,3 +1,19 @@
+
+@font-face {
+    font-family: BrandonText;
+    src: url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/fonts/BrandonText-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BrandonText-Bold;
+    src: url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/fonts/BrandonText-Bold.otf") format("opentype");
+}
+
+
+*{
+    font-family: BrandonText;
+}
+
 #container1{            
             width: 100%;
             height: 160px;
@@ -50,47 +66,48 @@
 
         #product_name{
             color:#393939 ;
-            font-size: 19px;
-            letter-spacing: 3px;
+            font-size: 20px;
+            font-weight:400;
+            line-height: 0px;
         }
         #big_and_regular{
             color:#8b8989 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
             font-weight: 300;
             line-height: 20px;
         }
         #brand_name{
             color:#393939 ;
             font-size: 15px;
-            letter-spacing: 1px;
+            font-weight: 400;
             line-height: 0px;
         }
-        #product_price,#inr{
-            color:#393939 ;
+        #product_price{
+            color:#d61f27 ;
             font-size: 20px;
-            letter-spacing: 1px;
+            font-weight: 700;
+        }
+        #inr{
+            color:#d61f27 ;
+            font-size: 15px;
             font-weight: 700;
         }
         #description_1{
             color:#393939 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
-            font-weight: 300;
+            font-weight: 400;
             line-height: 20px;
         
         }
         #description_2{
             color:#393939 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
-            font-weight: 300;
+            font-weight: 400;
             line-height: 20px;
         }
         #fit_true_to_size{
             color:#555353 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
             font-weight: 300;
             line-height: 20px;
         }
@@ -113,9 +130,9 @@
          }
         
          .zoom:hover {
-            -ms-transform: scale(1.5);
-            -webkit-transform: scale(1.5); 
-            transform: scale(1.5); 
+            -ms-transform: scale(1.4);
+            -webkit-transform: scale(1.4); 
+            transform: scale(1.4); 
           }
           
          option{
@@ -171,29 +188,32 @@
          }
          #gift_detail{
              width: 863px;
-             height: 500px;
+             height: 650px;
              border-top: 1px solid rgb(235, 229, 229);   
              display: flex;
              margin-left: 30px;
              padding-top: 20px;
             
          }
+         a{
+             text-decoration: none;
+             color:#393939;;
+         }
          #gift{
           width: 414px;
-          height: 500px;
+          height: 650px;
           border: 1px solid transparent;
           margin-right: 30px;
           padding-top: 20px;
          }
          #detail{
             width: 414px;
-            height: 500px;
+            height: 650px;
             border: 1px solid transparent;
          }
          li{
             color:#393939 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
             font-weight: 300;
             line-height: 20px;
         
@@ -216,14 +236,12 @@
           .small_font{
             color:#393939 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
             font-weight: 300;
             line-height: 30px;
           }
           #see_more{
             color:#393939 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
             font-weight: 300;
             line-height: 30px; 
             text-decoration: underline;
@@ -237,20 +255,18 @@
           .description{
             color:#393939 ;
             font-size: 13px;
-            letter-spacing: 1.1px;
             font-weight: 300;
             line-height: 20px;
           }
           .h3{
             color:#393939 ;
             font-size: 16px;
-            letter-spacing: 1.1px;
             font-weight: 700;
             line-height: 20px;
           }
-          #button2{
+          .button2{
             position: relative;
-            width: 250px;
+            width: 200px;
             height: 40px;
             border: 1px solid black ;
             text-transform: capitalize;
@@ -262,10 +278,16 @@
             cursor: pointer;
             text-align: center;
           }
-          #button2:hover {
+          .button2:hover {
             -ms-transform: scale(1.02);
             -webkit-transform: scale(1.02); 
             transform: scale(1.02); 
+          }
+          #treasure_bond{
+            color: #393939;
+            font-size:19px ;
+            font-weight: 700;
+            text-decoration: underline;
           }
           #faq_review{
               width: 95%;
