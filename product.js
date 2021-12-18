@@ -348,34 +348,8 @@
     },
 
 ]
-document.querySelector("#header").innerHTML = '<object type="text/html" data="header.html">';
-document.querySelector("#footer").innerHTML = '<object type="text/html" data="footer.html">';
 localStorage.setItem('product',JSON.stringify(array))
-var product = JSON.parse(localStorage.getItem('product'));
-x(product)
-document.querySelector('#sort').addEventListener('change',function sort_by_price(value){
-    value = document.querySelector('#sort').value;
-    console.log(value)
-    if(value =='High_low'){
-        document.getElementById('products_container').innerHTML="";
-     High(product);
-    
-     x(product);
-    
-    }
-     else if(value=='Low_high'){
-        document.getElementById('products_container').innerHTML="";
-      low(product);
-      x(product)
-    } 
-    else{
-        document.getElementById('products_container').innerHTML="";
-      x(product)
-    }
-})
-
-function x(array){
- array.map(function(elem){
+array.map(function(elem){
     var product_div = document.createElement('div');
     product_div.setAttribute('class','smalldiv')
     var product_img= document.createElement('img');
@@ -410,35 +384,13 @@ function x(array){
             localStorage.setItem('this_product',JSON.stringify(current_product));
             window.location.href='display_page.html'
         })
-
     
-    })}
-
-
-
-     document.querySelector("#men").addEventListener("click",menpage)
-
-     function menpage(){
-         window.location.href = "product.html"
-     }
-     document.querySelector("#women").addEventListener("click",womenpage)
-
-     function womenpage(){
-         window.location.href = "product_women.html"
-     }
-     
-     
-function low(array){
-array.sort(function(a, b) {
-    return (a.price) - (b.price);
 })
- }
+    document.querySelector("#cont").addEventListener("click",myFilter())
 
-function High(array){
-array.sort(function(a, b) {
-    return (b.price) -(a.price);
-})
-}
-
-
-    
+    function myFilter(){
+     var a = document.querySelector("#cont").Value
+     var b = array.filter(function(elem){
+         return elem.Men == a 
+     })
+    }

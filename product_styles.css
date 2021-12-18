@@ -1,21 +1,5 @@
-@font-face {
-    font-family: BrandonText;
-    src: url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/fonts/BrandonText-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: BrandonText-Bold;
-    src: url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/fonts/BrandonText-Bold.otf") format("opentype");
-}
-
-
 *{
-    font-family: BrandonText;
-    color: #393939;
-}
-a{
-    text-decoration: none;
-    color:#393939;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #products_container{
     width:1275px ;
@@ -24,14 +8,12 @@ a{
     grid-gap:10px;
     /* float:right ; */
     margin-left: 12%;
-    color:#393939 ;
 }
 .smalldiv{
     border: 1px solid transparent;
     height: 600px;
     text-align: center;
     padding: 5px;
-    color:#393939 ;
    
 }
 #image{
@@ -39,7 +21,7 @@ a{
     height: 75%;
 }
 .name{
-    color:#393939 ;
+    color: grey;
     font-size: 15px;
     font-weight: 400;
     margin: 0px;
@@ -59,7 +41,6 @@ a{
     display: flex;
     align-items: baseline;
     align-content: space-around;
-    color:#393939 ;
 }
 #span{
     width: 70px;
@@ -73,7 +54,6 @@ a{
     background-size: contain;
     text-align: center;
     margin-left: 1%;
-    color:#393939 ;
 }
 #name{
     display: flex;
@@ -81,31 +61,28 @@ a{
     padding: 40px;
     padding-top: 290px;
     text-decoration: underline;
-    color:#393939 ;
 }
 .srt{
     display: flex;
     justify-content: space-around;
-    color:#393939 ;
 }
 #sort{
-   height: 35px;
-   width: 200px;
-    color:#393939 ;
+    padding: 17px;
     
 }
 .leftbox{
     width: 250px;
     height: 470px;
+    text-overflow: ellipsis;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
-    color:#393939 ;
+    /* position: fixed; */
+    /* position: sticky; */
 }
 .flex{
     display: flex;
     margin-top: 4%;
-    color:#393939 ;
+    /* position: fixed; */
 }
-
 
