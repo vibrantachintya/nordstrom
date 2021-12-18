@@ -534,6 +534,8 @@
     </style>
 </head>
 <body>
+    
+    <div id="header"></div>
 
     <div id="container">
         <div id="top_transition">
@@ -792,6 +794,8 @@
     
 </body>
 <script>
+    document.querySelector("#header").innerHTML = '<object type="text/html" data="header.html">';
+    
     var c = 0;
     function changeBGMakeListGrid(str) {
         const images = ['url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/make_a_list_grid_transition_' + str + '_1.jpeg")', 'url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/make_a_list_grid_transition_'+ str + '_2.jpeg")', 'url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/make_a_list_grid_transition_' + str + '_3.jpeg")', 'url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/make_a_list_grid_transition_' + str + '_4.jpeg")', 'url("https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/make_a_list_grid_transition_' + str + '_5.jpeg")'];
