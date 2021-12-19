@@ -24,7 +24,7 @@ bagc.map(function(elem,index){
 
 
     var img=document.createElement("img")
-    img.setAttribute("src",elem.imgUrl)
+    img.setAttribute("src",elem.image)
     imgdiv.append(img)                       //img added
 
     //content box start  
