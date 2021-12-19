@@ -10,7 +10,7 @@
         arr.push(obj)
         localStorage.setItem("data",JSON.stringify(arr))
         if(email!=""){
-        window.location.href="Creat_Account.html";
+        window.location.href="create_account.html";
     }
     else{
         alert("Enter your Email ID")
