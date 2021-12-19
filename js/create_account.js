@@ -22,7 +22,7 @@ localStorage.setItem("res",JSON.stringify(arr2))
 
 if(firstname!="" && lastname!="" && creatpassword!="")
 {
-window.location.href="welcome_Page.html";
+window.location.href="welcome_page.html";
 }
 
 else
