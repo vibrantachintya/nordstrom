@@ -118,7 +118,7 @@ function removeDropdown() {
     }
 }
 
-document.getElementById('bag').addEventListener('click',shopping_bag);
+document.getElementsById('bag').addEventListener('click',shopping_bag);
 function shopping_bag(){
-    window.location.href="index.html"
+    window.location.href="shopping-bag.html"
 }
