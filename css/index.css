@@ -524,11 +524,15 @@ a:hover {
   word-wrap: break-word;
 }
 
-#category-conatiner > div {
+#category-conatiner > a {
+  border-bottom: none;
+}
+
+#category-conatiner > a > div {
   width: 230px;
 }
 
-#category-conatiner > div > img {
+#category-conatiner > a > div > img {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -784,7 +788,7 @@ a:hover {
     row-gap: 20px;
   }
 
-  #category-conatiner > div {
+  #category-conatiner > a > div {
     width: auto;
   }
 
