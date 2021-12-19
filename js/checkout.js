@@ -28,16 +28,10 @@ function hide(){
         document.querySelector("#del_country").textContent=country
 
         document.querySelector(".paymentHidden").style.display="block"
-
-
-        
+   
     }
-
-    
 }
-document.querySelector("#gotobag").addEventListener("click",function(){
-    window.location.href="shopping_bag.html"
-})
+
 var totalbefore=localStorage.getItem("addition")
 console.log(totalbefore)
 
