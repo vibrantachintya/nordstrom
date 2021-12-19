@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="icon" href="//n.nordstrommedia.com/id/169f9507-47b3-44bc-9ad4-9244fe191523.png" sizes="16x16" /><link rel="icon" href="//n.nordstrommedia.com/id/69be546b-0c64-4cd0-8840-67a112d242d7.png" sizes="32x32" /><link rel="icon" href="//n.nordstrommedia.com/id/c4fb2a09-3657-4161-9b79-6412897d9399.png" sizes="96x96" />
+    <link rel="stylesheet" href="./css/display_page.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js"></script>
 </head>
@@ -2269,91 +2272,167 @@
             </div>
         </body>
     </div>
-    <div id="continer">
-    <div id="box">
-    <h1>Create Account</h1>
-    </div>
-    <p style="color: gray;">Enter your email to get started</p>
-    <div style="display: flex; margin-bottom: 0px;"><h3>Email</h3></div>
-    <input type="email" style="width: 95%; height:40px; margin-bottom: 20px;" id="mail">
-    <div style="margin-top: 30px; margin-bottom: 30px; color: gray;">By tapping Next, you agree to our Privacy Policy and Terms & Conditions.</div>
-<input id="next" type="button" value="Next" style="width: 95%; height:40px; color: white; background-color: black;cur ">
-</div>
-<div id="footer">
-    <div class="foot">
-        <div class="foot-column">
-           <ul>
-               <li><label class="head">Customer Service</label></li>
-               <li>Contact Us</li>
-               <li>Order Status</li>
-               <li>Shipping</li>
-               <li>Returns &amp;exchanges</li>
-               <li>Shipping</li>
-               <li>Product recalls</li>
-           </ul>
+    <div id="container2">
+        <div >
+           <div id="img1" class="zoom"></div>
+           <div id="img2" class="zoom"></div>
+           <div id="img3" class="zoom"></div>
+           <div id="img4" class="zoom"></div>
         </div>
-        <div class="foot-column">
+        <div>
+            <span id="product_name"></span>
+            <p id="brand_name"></p>
+            <p id="big_and_regular">Big & regular</p>
+            <div> <span id="inr">INR</span><span id="product_price"></span></div>
+            
+            <p  id="product_description"></p>
+            <p id="description_1">Price varies with currency exchange rates and may be different than in store.</p>
+            <p id="description_2">A soft, heavyweight blend of cotton and recycled tech fabric ensures easy comfort in laid-back sweatpants marked with cool branding.</p>
+            <p id="fit_true_to_size"> <b> Fit:</b> True to size.</p>
+            <select  id="size" >
+                <option>extra-small</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>extra-Large</option>
+            </select><br><br>
+            <div id="north_face">The North Face size guides</div>
+            <select  id="color">
+                <option>Black</option>
+                <option>White</option>
+                <option>Grey</option>
+                <option>Red</option>
+            </select><br><br>
+            <p id="red">22 people are viewing</p>
+            <button id="button"><img id="shopping_bag" src="images/shopping-bag.png" alt=""> Add to Bag</button>
+        </div>
+    </div>
+    <div id="gift_detail">
+        <div id="detail">
+            <span  class="detail_span"> SIZE INFO</span>
+            <ul id="ul1"></ul>
+            <li>True to size.</li>
+        </ul><br><br>
+        
+            <span class="detail_span">DETAILS & CARE</span>
+            <p class="description">Down insulation and quilted construction give this vest unbeatable warmth for chilly hikes when the sun goes down.</p>
+            <ul id="ul2"></ul>
+            <li>27" length (size Medium)</li>
+            <li>Front zip closure</li>
+            <li>Side pockets with zip closure; chest pocket with zip closure</li>
+            <li>Lined, with down fill</li>
+            <li>100% polyester</li>
+            <li>Machine wash, tumble dry</li>
+            <li>Imported</li>
+            <li>Men's Clothing</li>
+            <li>Item #5999604</li>
+        </ul> 
+        <span class="ship_return">Free Shipping & Returns <span id="see_more"> See more</span></span>
+        </div>
+        <div id="gift">
+       <span class="detail_span"><img height="20px" width="20px" src="images/gift-box.png" alt="">  GIFT OPTIONS</span>
+           <p class="description">Choose your gift options at Checkout. Some items may not be eligible for all gift options.</p>
+           <h3 class="h3">Free Pickup</h3>
+           <div class="small_font"><img height="15px"margin="5px" width="15px" src="images/file.png" alt="">Printed gift message (free)</div>
+           <div class="small_font"><img height="15px"margin="5px" width="15px" src="images/package.png" alt="">DIY Nordstrom gift box (free)</div>
+           <h3 class="h3">Delivery</h3>
+           <div class="small_font"><img height="15px"margin="5px" width="15px" src="images/email.png" alt="">Email gift message (free)</div>
+           <div class="small_font"><img height="15px"margin="5px" width="15px" src="images/file.png" alt="">Printed gift message (free)</div>
+           <div class="small_font"><img height="15px"margin="5px" width="15px" src="images/package.png" alt="">DIY Nordstrom gift box ($3)</div>
+           <div class="ship_return">Looking for gifts for everyone on your list? We've got you covered.</div>
+           <button class="button2"><a href="product.html">Shop Gifts</a></button>
+           <p id="treasure_bond">TREASURE & BOND</p>
+           <p class="description">A Nordstrom Made brand that caters to women, men and kids who value authentic, uncomplicated style, Treasure & Bond delivers all-American classics with a laid-back aesthetic and a lived-in vibe. But an array of easy-to-wear wardrobe staples isn't the brand's only distinction. Through partnerships with organizations across North America, every Treasure & Bond purchase supports youth experiencing homelessness.</p>
+        </div>
+    </div>
+    <div id="faq_review">
+        <p class="detail_span"><span><img  height="20px" width="20px" src="images/chat.png" alt=""></span> HAVE QUESTIONS?</p>
+        <p class="description">Connect with us to get free style advice, product recommendations or customer service help.</p>
+        <button class="button2">Chat Now</button>
+        <hr>
+        <p>Reviews</p>
+        <p><span><img  height="20px" width="20px"src="images/star.png" alt="">
+            <img  height="20px" width="20px"src="images/star.png" alt="">
+            <img  height="20px" width="20px"src="images/star.png" alt="">
+            <img  height="20px" width="20px"src="images/star.png" alt="">
+            <img height="20px" width="20px" src="images/star.png" alt=""> (0)</span></p>
+            <button  class="button2">Write a Review</button>
+    </div>
+    <div id="footer">
+        <div class="foot">
+            <div class="foot-column">
+               <ul>
+                   <li><label class="head">Customer Service</label></li>
+                   <li>Contact Us</li>
+                   <li>Order Status</li>
+                   <li>Shipping</li>
+                   <li>Returns &amp;exchanges</li>
+                   <li>Shipping</li>
+                   <li>Product recalls</li>
+               </ul>
+            </div>
+            <div class="foot-column">
+                  <ul>
+                      <li><label class="head">
+                          Stores &amp; Events
+                      </label>
+                      </li>
+                      <li> Stores &amp; Events</li>
+                      <li>Carrers</li>
+                      <li>Corporate Resposibility</li>
+                      <li>Diversity Including &amp; Belonging</li>
+                      <li>Get Email Updates</li>
+                      <li>Nordstrom Blog</li>
+                  </ul>
+            </div>
+            <div class="foot-column">
               <ul>
-                  <li><label class="head">
-                      Stores &amp; Events
-                  </label>
-                  </li>
-                  <li> Stores &amp; Events</li>
-                  <li>Carrers</li>
-                  <li>Corporate Resposibility</li>
-                  <li>Diversity Including &amp; Belonging</li>
-                  <li>Get Email Updates</li>
-                  <li>Nordstrom Blog</li>
+                  <li><label class="head">Service</label></li>
+                  <li>Personal Styling</li>
+                  <li>Alteration &amp; Tailering</li>
+                  <li>Spa Nordstrom</li>
+                  <li>Nordstrom Restuarant</li>
+                  <li> Gift Cards</li>
               </ul>
+            </div>
+            <div class="foot-column">
+              <ul>
+                  <li><label class="head">Nordstrom Cards</label></li>
+                  <li>Pay My Bill</li>
+                  <li>Manage Cards</li>
+              </ul>
+            </div>
+            <div class="foot-column">
+             <ul>
+                 <li><label class="head">Nordstrom Inc</label></li>
+                 <li>Nordstrom Rack</li>
+                 <li>Nordstrom Canada</li>
+                 <li>Trunk Club</li>
+                 <li>Investor Relations</li>
+                 <li>Press Release</li>
+             </ul>
+            </div>
+          
+            <div id="foot-col" class="foot-column">
+                <ul>
+                    <div style="display: flex;"><img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/mobile.svg" alt="facebook" style="width:18px;margin-right:5px;"/>Get our apps</div>
+                    <div style="display:flex;gap:15px;margin-top: 20px;">
+                        <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/insta.svg" alt="facebook" style="width:24px;"/>
+                        <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/pin.svg" alt="facebook" style="width:24px;"/>
+                        <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/twitter.svg" alt="facebook" style="width:24px;"/>
+                        <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/fb.svg" alt="facebook" style="width:24px;"/>
+                    </div>
+                <ul>
+            </div>
         </div>
-        <div class="foot-column">
-          <ul>
-              <li><label class="head">Service</label></li>
-              <li>Personal Styling</li>
-              <li>Alteration &amp; Tailering</li>
-              <li>Spa Nordstrom</li>
-              <li>Nordstrom Restuarant</li>
-              <li> Gift Cards</li>
-          </ul>
-        </div>
-        <div class="foot-column">
-          <ul>
-              <li><label class="head">Nordstrom Cards</label></li>
-              <li>Pay My Bill</li>
-              <li>Manage Cards</li>
-          </ul>
-        </div>
-        <div class="foot-column">
-         <ul>
-             <li><label class="head">Nordstrom Inc</label></li>
-             <li>Nordstrom Rack</li>
-             <li>Nordstrom Canada</li>
-             <li>Trunk Club</li>
-             <li>Investor Relations</li>
-             <li>Press Release</li>
-         </ul>
-        </div>
-      
-        <div id="foot-col" class="foot-column">
-            <ul>
-                <div style="display: flex;"><img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/mobile.svg" alt="facebook" style="width:18px;margin-right:5px;"/>Get our apps</div>
-                <div style="display:flex;gap:15px;margin-top: 20px;">
-                    <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/insta.svg" alt="facebook" style="width:24px;"/>
-                    <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/pin.svg" alt="facebook" style="width:24px;"/>
-                    <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/twitter.svg" alt="facebook" style="width:24px;"/>
-                    <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/fb.svg" alt="facebook" style="width:24px;"/>
-                </div>
-            <ul>
+        <div class="foot-second">
+            <p>Your Privacy Rights</p>
+            <p>Dont Sell My Info</p>
+            <p>Terms &amp; Conditions</p>
+            <p>Interest Based Ads</p>
+            <p>&copy; 2021 Nordstrom, Inc</p>
         </div>
     </div>
-    <div class="foot-second">
-        <p>Your Privacy Rights</p>
-        <p>Dont Sell My Info</p>
-        <p>Terms &amp; Conditions</p>
-        <p>Interest Based Ads</p>
-        <p>&copy; 2021 Nordstrom, Inc</p>
-    </div>
-</div>
+    <script src="./js/display_page.js"></script>
 </body>
 </html>
-<script src="./js/signup.js"></script>
