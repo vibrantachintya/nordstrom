@@ -117,3 +117,8 @@ function removeDropdown() {
         reset[i].style.textDecoration = "none"
     }
 }
+
+document.getElementById('bag').addEventListener('click',shopping_bag);
+function shopping_bag(){
+    window.location.href="index.html"
+}
