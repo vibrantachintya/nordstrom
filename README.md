@@ -1,3 +1,5 @@
-# nordstrom
+# Nordstrom - Construct Week, Unit 2
 
-Unit 2 Masai School
+Quick Intro of Project
+
+![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_intro.gif)
