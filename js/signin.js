@@ -8,7 +8,7 @@ console.log(dou1.length)
     {
         if(dou1[i].pmail==email && dou1[i].CP==pass && email!="" && pass!="")
         {
-            window.location.href="manish.html"
+            window.location.href="index.html"
         }  
     }  
     }
@@ -25,5 +25,5 @@ console.log(dou1.length)
     document.querySelector("#icon").addEventListener("click",close)
     function close(){
         
-        window.location.href="manish.html"
+        window.location.href="index.html"
     }
