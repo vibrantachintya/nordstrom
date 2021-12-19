@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" type="image/jpg" href="https://n.nordstrommedia.com/id/169f9507-47b3-44bc-9ad4-9244fe191523.png"/>
+    <link rel="icon" href="//n.nordstrommedia.com/id/169f9507-47b3-44bc-9ad4-9244fe191523.png" sizes="16x16" /><link rel="icon" href="//n.nordstrommedia.com/id/69be546b-0c64-4cd0-8840-67a112d242d7.png" sizes="32x32" /><link rel="icon" href="//n.nordstrommedia.com/id/c4fb2a09-3657-4161-9b79-6412897d9399.png" sizes="96x96" />
     <link rel="stylesheet" href="product_styles.css">
 </head>
 <body>
-    <p>Home/Men/Clothing</p>
+    <div id="header"></div>
+    <p><span><a href="./">Home</a></span>/Men/Clothing</p>
     <div class="flex">
         <div class="leftbox">
             <p>Gender</p>
             <hr>
                 <input type="checkbox" name="" id="">
-                <label for="">Mens</label><br>
+                <label id="men" for="">Men's</label><br>
                 <input type="checkbox" name="" id="">
-                <label for="">Womes</label>
+                <label id="women" for="">Women's</label>
             <hr>
             <p>Size</p>
             <hr>
@@ -29,8 +30,6 @@
                 <label for="">Red</label><br>
                 <input type="checkbox" name="" id="">
                 <label for="">Grey</label><br>
-                <input type="checkbox" name="" id="">
-                <label for="">Cherry</label><br>
                 </div>
             <hr>
             <p>Brand</p>
@@ -65,14 +64,16 @@
     <div class="srt">
         <h3>Men's Clothing </h3>
         <select id="sort">
-            <option value="" >sort by feature</option>
-            <option value="High-Low">High to Low</option>
+            <option value="">sort by feature</option>
+            <option value="High_low">High to Low</option>
             <option value="Low_high">Low to High</option>
         </select>
     </div>
 
-    <div id="products_container">
-    </div>
+
+    <div id="products_container"> </div>
+
+    <div id="footer"></div>
 </body>
 <script src="product.js"></script>
 </html>
