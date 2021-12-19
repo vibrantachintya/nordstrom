@@ -7,7 +7,7 @@ Quick Intro of Project
 ## Key Links
 - [Link to Hosted Website](https://vibrantachintya.github.io/nordstrom/)
 - [Link to Blog](https://medium.com/@achintyagaumat/nordstrom-website-construct-week-unit-2-920762dd85b6)
-- [Link Video Presentation](To be added Soon)
+- [Link Video Presentation](https://drive.google.com/file/d/1AD-CLLz8It3FZp0eyrX1vgHME2OKHV2J/view?usp=sharing)
 
 ## Key Features of Project
 
