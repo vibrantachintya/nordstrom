@@ -5,7 +5,9 @@ Quick Intro of Project
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_intro.gif)
 
 ## Key Links
-- [Link to Bloh](https://medium.com/@achintyagaumat/nordstrom-website-construct-week-unit-2-920762dd85b6)
+- [Link to Hosted Website](https://vibrantachintya.github.io/nordstrom/)
+- [Link to Blog](https://medium.com/@achintyagaumat/nordstrom-website-construct-week-unit-2-920762dd85b6)
+- [Link Video Presentation](To be added Soon)
 
 ## Key Features of Project
 
