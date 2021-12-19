@@ -51,7 +51,7 @@ document.querySelector("#promo").addEventListener("click",function(){
 
 })
 document.querySelector("#saytq").addEventListener("click",function(){
-    window.location.href="Thank_you.html"
+    window.location.href="thank_you.html"
 })
 document.querySelector("#Porder").addEventListener("click",function(){
     if(document.querySelector("#card>input").value==""){
