@@ -7,7 +7,7 @@ Quick Intro of Project
 ## Key Features of Project
 
 1. Landing Page by Achintya Gaumat :
-![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_1)
+![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_1.png)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_2)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_3)
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_screenshot_4)
