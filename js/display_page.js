@@ -55,6 +55,7 @@ var item_image= document.querySelector('#image1').src;
  
  cart.push(obj);
  localStorage.setItem("bag",JSON.stringify(cart));
+    alert('Product added to cart');
 }
 
 
