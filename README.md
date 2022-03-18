@@ -1,6 +1,7 @@
 # Nordstrom - Construct Week, Unit 2
 
 Quick Intro of Project
+This is clone of Nordstorm.com, A leading fashion retailer offering clothing, shoes, and accessories for men, women and kids.. Where we have used HTML, CSS and Advance Javascript to acheive this. In this project we have tried to clone the “Nordstorm” website. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best.
 
 ![](https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/nordstrom_intro.gif)
 
